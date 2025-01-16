@@ -1,22 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
-    </header>
-    <section>
-        <h2>Project Showcase</h2>
-        <div class="project">
-            <h3>Project 1: Portfolio Website</h3>
-            <p>A simple portfolio website showcasing my skills and projects.</p>
+    <div class="container">
+        <nav class="left-sidebar">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html" class="home-button">Home</a></li>
+                <li><a href="biolinks.html">Bio</a></li>
+                <li><a href="grades.html">Grade</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <header>
+                <h1>My Projects</h1>
+            </header>
+
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Technologies Used</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Portfolio Website</td>
+                            <td>A simple portfolio website showcasing my skills and projects.</td>
+                            <td>HTML, CSS, JS</td>
+                        </tr>
+                        <tr>
+                            <td>Machine Learning Model</td>
+                            <td>Predicting car prices using Mini-Batch Gradient Descent with L2 Regularization. The script preprocesses a dataset, normalizes features, splits the data into training and test sets, trains a model, and evaluates its performance.</td>
+                            <td>Python, scikit-learn</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+            </footer>
         </div>
-        <div class="project">
-            <h3>Project 2: Car Price Prediction</h3>
-            <p>Predicting car prices using Mini-Batch Gradient Descent with L2 Regularization. The script preprocesses a dataset, normalizes features, splits the data into training and test sets, trains a model, and evaluates its performance.</p>
-        </div>
-    </section>
+    </div>
 </body>
 </html>
