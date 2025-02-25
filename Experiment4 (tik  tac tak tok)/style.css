@@ -37,6 +37,10 @@ body {
     border-radius: 5px;
 }
 
+.cell:hover{
+    background-color: rgb(202, 47, 163);
+}
+
 #reset-button {
     background-color: #5ec361;
     color: white;
